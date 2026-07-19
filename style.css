@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #1e2d9c 0%,
+    #2f7bea 45%,
+    #76b7f4 75%,
+    #b9a6d9 100%
+  );
+}
+
+.searchText {
+  color: #ffffff !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#inputSection {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+#inputSection p {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
+
+#input {
+  color: white;
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
+  border: none;
+  z-index: 1;
+}
+
+#input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: inherit;
+}
+
+#searchBtn {
+  z-index: 2;
+  font-size: 22px;
+  color: white;
+  background-color: blue !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+  border: none;
+}
+
+#searchBtn:active {
+  background-color: rgb(0, 0, 198) !important;
+}
+
+.weather-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+  border: none;
+}

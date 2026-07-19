@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./bootstrap.css" />
+  </head>
+  <body>
+    <!-- GET START PAGE -->
+    <div class="container" id="main">
+      <div class="px-4 pt-5 my-5 text-center">
+        <div class="overflow-hidden" style="max-height: 30vh">
+          <div class="container px-5">
+            <img
+              src="./images/weather.png"
+              class="img-fluid mb-4"
+              alt="Example image"
+              width="250"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <h1 class="display-1 fw-bold text-light">
+          Weather <br />
+          <span class="text-warning fw-normal">ForeCast</span>
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button
+              type="button"
+              id="start-btn"
+              class="btn btn-warning text-light btn-lg px-5 rounded-5 fw-bold mt-5 me-sm-3"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./bootstrap.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
